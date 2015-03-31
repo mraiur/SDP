@@ -2,19 +2,21 @@
     padding:0px;
     margin: 0px;
     outline: 0px none;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    /*font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;*/
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 *::before, *::after{
     box-sizing: border-box;
 }
 
+a{
+    color:#5BA0DA;
+}
+
 .dark-text{
     color: #404040;
     font-weight: 700;
-}
-h5{
-    font-size:17px;
 }
 h5, .social-icons{
     border: 0px none;
@@ -22,6 +24,9 @@ h5, .social-icons{
     font-size:100%;
     font-style: inherit;
     vertical-align: baseline;
+}
+h5{
+    font-size:20px;
 }
 
 .profile{

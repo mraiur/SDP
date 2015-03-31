@@ -7,7 +7,7 @@ This is a VERY simple page just for you to describe your self with few sentences
 3. run :
 
 ```
-bower
+bower install
 npm install
 gulp
 ```
