@@ -17,6 +17,20 @@ if( !function_exists('myShortDescription') ){
     }
 }
 
+if( !function_exists('github') ){
+    function github(){
+        return configValue('github');
+    }
+}
+
+
+if( !function_exists('bitbucket') ){
+    function bitbucket(){
+        return configValue('bitbucket');
+    }
+}
+
+
 
 if( !function_exists('myName')) {
     function myName(){

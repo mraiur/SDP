@@ -7,6 +7,8 @@ return [
     'name' => "Firstname Lastname",
     'short-description' => 'Ultimate developer',
 
+    'github' => 'Github link',
+    'bitbucket' => 'BitBucket link',
     'facebook' => 'Facebook link',
     'twitter' => 'Twitter link',
     'google-plus' => 'Google plus link',

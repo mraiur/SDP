@@ -26,6 +26,8 @@ $config = require_once('config.php');
 
             <div class="social-icons">
                 <ul>
+                    <li><a href="<?=github()?>"><i class="fa fa-github"></i></a></li>
+                    <li><a href="<?=bitbucket()?>"><i class="fa fa-bitbucket"></i></a></li>
                     <li><a href="<?=facebook()?>"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="<?=twitter()?>"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="<?=linkedin();?>"><i class="fa fa-linkedin"></i></a></li>
