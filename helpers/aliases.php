@@ -36,7 +36,7 @@ if( !function_exists('facebook') ){
     }
 }
 
-if( !function_exists('google-plus') ){
+if( !function_exists('googlePlus') ){
     function googlePlus(){
         return configValue('google-plus');
     }

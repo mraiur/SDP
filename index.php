@@ -12,13 +12,15 @@ $config = require_once('config.php');
     </head>
     <body>
         <div class="profile">
-             <figure class="profile-pic">
+            <div class="name">
+                <h5 class="dark-text"><?=myName()?></h5>
+            </div>
+            <figure class="profile-pic">
                  <img src="<?=profilePic()?>" alt="">
             </figure>
 
 
             <div class="details">
-                <h5 class="dark-text red-border-bottom"><?=myName()?></h5>
                 <div class="position"><?=myShortDescription()?></div>
             </div>
 
@@ -27,9 +29,10 @@ $config = require_once('config.php');
                     <li><a href="<?=facebook()?>"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="<?=twitter()?>"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="<?=linkedin();?>"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="<?=googlePlus();?>"><i class="fa fa-google-plus"></i></a></li>
                 </ul>
             </div>
-            <div class="details">
+            <div class="extended-details">
 
                 <?=assetDataFile('description')?>
             </div>
