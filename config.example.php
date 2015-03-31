@@ -10,5 +10,6 @@ return [
     'facebook' => 'Facebook link',
     'twitter' => 'Twitter link',
     'google-plus' => 'Google plus link',
-    'linkedin' => 'LinkedIn link'
+    'linkedin' => 'LinkedIn link',
+    'blog' => 'Your blog link'
 ];

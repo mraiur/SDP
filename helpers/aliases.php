@@ -47,3 +47,9 @@ if( !function_exists('linkedin') ){
         return configValue('linkedin');
     }
 }
+
+if( !function_exists('blog') ){
+    function blog(){
+        return configValue('blog');
+    }
+}

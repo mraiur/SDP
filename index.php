@@ -30,6 +30,7 @@ $config = require_once('config.php');
                     <li><a href="<?=twitter()?>"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="<?=linkedin();?>"><i class="fa fa-linkedin"></i></a></li>
                     <li><a href="<?=googlePlus();?>"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="<?=blog();?>"><i class="fa fa-rss"></i></a></li>
                 </ul>
             </div>
             <div class="extended-details">
