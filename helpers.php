@@ -2,7 +2,11 @@
 if( !function_exists('assetDataFile') ){
     function assetDataFile($file){
         if( file_exists( './information/'.$file.'.php') ){
-            return require_once './information/'.$file.'.php';
+            ob_start();
+            require './information/'.$file.'.php';
+            $content = ob_get_contents();
+            ob_end_clean();
+            return $content;
         }
         return '';
     }

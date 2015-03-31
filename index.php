@@ -36,7 +36,6 @@ $config = require_once('config.php');
                 </ul>
             </div>
             <div class="extended-details">
-
                 <?=assetDataFile('description')?>
             </div>
         </div>
